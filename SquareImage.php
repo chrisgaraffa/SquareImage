@@ -7,6 +7,7 @@ class SquareImage {
 	var $image;
 	var $thumbnailW = 70;
 	var $thumbnailH = 70;
+
 	function __construct($path = '') {
 		if (strlen($path)) {
 			$this->setImage($path);
